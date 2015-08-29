@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package build
+package building
 
 import (
 	"reflect"

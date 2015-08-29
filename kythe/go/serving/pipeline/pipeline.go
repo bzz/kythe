@@ -34,7 +34,7 @@ import (
 	ftsrv "kythe.io/kythe/go/serving/filetree"
 	"kythe.io/kythe/go/serving/search"
 	"kythe.io/kythe/go/serving/xrefs"
-	"kythe.io/kythe/go/serving/xrefs/build"
+	build "kythe.io/kythe/go/serving/xrefs/building"
 	"kythe.io/kythe/go/storage/keyvalue"
 	"kythe.io/kythe/go/storage/leveldb"
 	"kythe.io/kythe/go/storage/table"
