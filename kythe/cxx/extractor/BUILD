@@ -142,6 +142,9 @@ cc_library(
 
 cc_test(
     name = "test",
+    linkopts = [
+        "-headerpad_max_install_names",
+    ],
     deps = [
         ":testlib",
     ],
